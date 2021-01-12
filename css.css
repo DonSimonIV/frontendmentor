@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-bottom.svg),
+         url(./images/bg-pattern-top.svg);
+         background-repeat: no-repeat;
+         background-position: 800px 300px , -400px -400px ;
+    /* , hsl(185, 75%, 39%); */
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+}
+.container{
+    text-align: center;
+    border-radius: 30px;
+    height: 30rem;
+    width: 400px;
+    background-color: white;
+    position: relative;
+}
+.banner-img{
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-image: url(./images/bg-pattern-card.svg);
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+
+}
+.profile-pic{
+    padding: 90px;
+    width: 8rem;
+    clip-path: circle(60px at center);
+
+
+}
+
+.descripcion{
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+}
+
+.nombre{
+    color:grey;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.likes{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.likes-child{
+    margin-right: 20px;
+    margin-left: 20px;
+}
